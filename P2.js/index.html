@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Child Allowance Checker</title>
+    </head>
+    <body>
+        <label for="ShoppingCheck">Shopping Done</label>
+        <input type="checkBox" id="checkBox">
+        <p id="message"></p>
+    </body>
+    <script>
+        const checkBox = document.querySelector('input')
+        const para = document.querySelector('p')
+        
+        let shoppingDone = false
+
+        checkBox.addEventListener('change',() => {
+            checkBox.disabled = true
+            shoppingDone = true
+            updateAllowance ()
+        })
+
+        function updateAllowance() {
+            let childAllowance;
+            if(shoppingDone === true) {
+                childAllowance = "$10"
+                para.textContent = `Child has earned a deserved ${childAllowance} Allowance`
+            }
+            else {
+                childAllowance = "$5"
+            }
+                
+
+        }
+
+        updateAllowance();
+        
+    </script>
+</html>
