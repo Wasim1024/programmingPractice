@@ -1,0 +1,28 @@
+{
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showSnippets": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showVariables": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showModules": false,
+    "editor.suggest.showProperties": false,
+    "editor.suggest.showValues": false,
+    "editor.suggest.showMethods": false,
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}
