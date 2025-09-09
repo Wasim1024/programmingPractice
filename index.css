@@ -98,34 +98,72 @@ img {
 
 @media (max-width: 480px) {
     .carousel {
-        width: 95%;
-        max-width: 350px;
-        height: 280px;
-        margin: 80px auto 20px auto;
-        padding: 15px;
+        width: 85%;
+        max-width: 300px;
+        height: 250px;
+        margin: 50px auto 20px auto;
+        padding: 10px;
+        box-sizing: border-box;
     }
     
     img {
-        width: 100px;
-        height: 100px;
-        margin-top: -50px;
+        width: 80px;
+        height: 80px;
+        margin-top: -40px;
     }
     
     .carousel h3 {
-        margin-top: -50px;
-        margin-bottom: -5px;
-        font-size: 14px;
-        line-height: 1.2;
+        margin-top: -35px;
+        margin-bottom: 0px;
+        font-size: 12px;
+        line-height: 1.1;
+        padding: 0 10px;
     }
     
     .carousel p {
-        margin-top: 40px;
-        margin-bottom: 40px;
-        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 11px;
     }
     
     #timer {
-        font-size: 18px;
-        margin-top: 10px;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 360px) {
+    .carousel {
+        width: 90%;
+        max-width: 280px;
+        height: 220px;
+        margin: 40px auto 20px auto;
+        padding: 8px;
+    }
+    
+    img {
+        width: 70px;
+        height: 70px;
+        margin-top: -35px;
+    }
+    
+    .carousel h3 {
+        margin-top: -30px;
+        margin-bottom: 0px;
+        font-size: 11px;
+        line-height: 1.0;
+        padding: 0 8px;
+    }
+    
+    .carousel p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    
+    #timer {
+        font-size: 14px;
+        margin-top: 3px;
     }
 }
