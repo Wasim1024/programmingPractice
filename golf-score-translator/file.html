@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Score Calculator</title>
+    <link rel="stylesheet" href="file.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Golf Score Calculator</h1>
+        <div class="card">
+            <div class="input-group">
+                <label for="par">Par:</label>
+                <input type="number" id="par" placeholder="Enter par (e.g., 4)" min="1" max="6">
+            </div>
+            <div class="input-group">
+                <label for="strokes">Strokes:</label>
+                <input type="number" id="strokes" placeholder="Enter strokes" min="1">
+            </div>
+            <button onclick="calculateScore()">Calculate Score</button>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="file.js"></script>
+</body>
+</html>
